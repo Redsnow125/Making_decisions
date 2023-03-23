@@ -131,8 +131,8 @@ let passingScore = 7;
 
 //CODE HERE
 while (score <= passingScore){
-  console.log("Your score is " + score)
   score++;
+  console.log("Your score is " + score)
 }
 console.log("You passed!");
 ////////// INTERMEDIATE PROBLEMS //////////
@@ -169,7 +169,7 @@ if (changeMyMind !== true){
 console.log();
 let z = 5;
 let y = 1;
-let b = 5;
+
 // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. 
 //Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
@@ -184,7 +184,10 @@ while (z > 0){
   }
 
 }
-console.log();
+
+//================================================================//
+
+let b = 5;
 while (b > 0) 
 {
 
